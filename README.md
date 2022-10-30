@@ -5,7 +5,7 @@ As seniors in high school, we wanted to create a budgeting tool that we would wa
 Our website allows you to set up an account, input expenses, and see a visualization of your data.
 
 ## How we built it
-We used HTML, CSS, and JavaScript and integrated Google Charts API, Google Maps API, and Capital One’s Hackathon API to pull information from a database, graph it, and show nearby banks.
+We used HTML, CSS, and JavaScript and integrated Google Charts API, Google Maps API, and [Capital One’s Hackathon API](http://api.nessieisreal.com/) to pull information from a database, graph it, and show nearby banks.
 
 ## Challenges we ran into
 Integrating Capital One’s Hackathon API was challenging since we had to work with JavaScript Promises for the first time. Pulling the data, showing it, and plotting it all within a span of 20 hours was difficult, but we persevered.
