@@ -1,0 +1,135 @@
+[
+    {
+      "_id": "string",
+      "type": "merchant",
+      "merchant_id": "string",
+      "payer_id": "string",
+      "purchase_date": "2022-10-29",
+      "amount": 1000,
+      "status": "pending",
+      "medium": "balance",
+      "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-30",
+        "amount": 1200,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 1500,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-11-1",
+        "amount": 1100,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-11-2",
+        "amount": 1500,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 1700,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 800,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 900,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 1050,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 1150,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 1350,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    },
+    {
+        "_id": "string",
+        "type": "merchant",
+        "merchant_id": "string",
+        "payer_id": "string",
+        "purchase_date": "2022-10-31",
+        "amount": 950,
+        "status": "pending",
+        "medium": "balance",
+        "description": "string"
+    }
+]

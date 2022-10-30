@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <!--Load the AJAX API-->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript">
+    
+        // Load the Visualization API and the piechart package.
+        google.charts.load('current', {'packages':['corechart']});
+      
+        // Set a callback to run when the Google Visualization API is loaded.
+        google.charts.setOnLoadCallback(drawChart);
+
+    newData = [
+        ['Month', 'Spendings']
+    ]
+  
+    function transformData(jsonData){
+        for (var i=0; i<jsonData.length; i++) {
+            newData.push(new Array(i+1, jsonData[i].amount))
+        }
+    }
+
+        // function drawChart() {
+        //   var data = google.visualization.arrayToDataTable([
+        //     ['Year', 'Spendings'],
+        //     ['2004',  1000],
+        //     ['2005',  1170],
+        //     ['2006',  660],
+        //     ['2007',  1030]
+        //   ]);
+  
+        //   var options = {
+        //     title: 'Earnings and Spendings for the Past Year',
+        //   };
+  
+        //   var chart = new google.visualization.LineChart(document.getElementById('linechart_material'));
+  
+        //   chart.draw(data, options);
+        // }
+
+        async function drawChart() {
+            var response = await fetch("purchaseData.json");
+            var purchaseData = await response.json();
+            transformData(purchaseData);
+
+            console.log(newData);
+          
+            // Create our data table out of JSON data loaded from server.
+            var data = new google.visualization.arrayToDataTable(newData);
+
+            var options = {
+                title: 'Spendings for the Past Year',
+            };
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.LineChart(document.getElementById('linechart_material'));
+            chart.draw(data, {width: 1000, height: 400});
+        }
+
+
+        
+
+      </script>
+
+    </head>
+
+    
+    <body>
+      <div id="linechart_material" style="width: 900px; height: 500px"></div>
+      
+      <div id="map"></div>
+      
+      <script>
+        async function mapBranches(map){
+        var response = await fetch("accountdata.json");
+        var accountData = await response.json();
+        console.log(accountData)
+
+        for(var i=0; i<accountData.length; i++){
+            lat = accountData[i].geocode.lat;
+            lng = accountData[i].geocode.lng;
+            var marker = new google.maps.Marker({
+                position: {lat: lat,lng: lng},
+                map: map,
+            });
+        }
+
+        }
+
+        
+
+        // Initialize and add the map
+        function initMap() {
+            // The location of center
+            const center = { lat: 38.8960952, lng: -77.1333157};
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 11,
+                center: center
+            });
+            
+            mapBranches(map);
+        }
+
+        window.initMap = initMap;
+
+        
+    </script>
+      
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEd7Y6AiDJa52rS98IReIb1CWRbMKsMp4&callback=initMap&v=weekly"
+      defer
+    ></script>
+    </body>
+  </html>
+  

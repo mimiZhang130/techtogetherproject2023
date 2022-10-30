@@ -1,0 +1,804 @@
+[
+    {
+       "_id":"56c66be5a73e4927415071a4",
+       "name":"LEE HIGHWAY/GEORGE MASON",
+       "phone_number":"(703) 237-0146",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"5222",
+          "state":"VA",
+          "street_name":"Lee Highway",
+          "zip":"22207",
+          "city":"Arlington"
+       },
+       "geocode":{
+          "lng":-77.1333157,
+          "lat":38.8960952
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071a5",
+       "name":"BALLSTON COMMON MALL",
+       "phone_number":"(703) 558-2230",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"4100",
+          "state":"VA",
+          "street_name":"Wilson Boulevard, 1st Floor",
+          "zip":"22203",
+          "city":"Arlington"
+       },
+       "geocode":{
+          "lng":-77.109526,
+          "lat":38.879446
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071a6",
+       "name":"AMERICAN UNIVERSITY",
+       "phone_number":"(202) 537-2800",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 5 PM",
+          "Sat"
+       ],
+       "notes":[
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"4400",
+          "state":"DC",
+          "street_name":"Massachusetts AVE NW",
+          "zip":"20016",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0871844,
+          "lat":38.9392871
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071a7",
+       "name":"SEVEN CORNERS",
+       "phone_number":"(703) 534-2540",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 6 PM",
+          "Tue 9 AM - 6 PM",
+          "Wed 9 AM - 6 PM",
+          "Thu 9 AM - 6 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open after 5 PM",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"6367",
+          "state":"VA",
+          "street_name":"Seven Corners Center",
+          "zip":"22044",
+          "city":"Falls Church"
+       },
+       "geocode":{
+          "lng":-77.1506881,
+          "lat":38.8689155
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071a8",
+       "name":"ROSSLYN",
+       "phone_number":"(703) 528-7325",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"1100",
+          "state":"VA",
+          "street_name":"Wilson Boulevard",
+          "zip":"22209",
+          "city":"Arlington"
+       },
+       "geocode":{
+          "lng":-77.0702878,
+          "lat":38.8947171
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071a3",
+       "name":"ARLINGTON",
+       "phone_number":"(703) 812-8550",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"4700",
+          "state":"VA",
+          "street_name":"Lee Highway",
+          "zip":"22207",
+          "city":"Arlington"
+       },
+       "geocode":{
+          "lng":-77.1211338,
+          "lat":38.8981779
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071a9",
+       "name":"LITTLE FALLS",
+       "phone_number":"(301) 320-3800",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"4701",
+          "state":"MD",
+          "street_name":"Sangamore Road",
+          "zip":"20816",
+          "city":"Bethesda"
+       },
+       "geocode":{
+          "lng":-77.1192523,
+          "lat":38.9500943
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071aa",
+       "name":"SPRING VALLEY",
+       "phone_number":"(202) 363-2253",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"4860",
+          "state":"DC",
+          "street_name":"Massachusetts AVE, NW",
+          "zip":"20016",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0961428,
+          "lat":38.9449596
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071ab",
+       "name":"GEORGETOWN (DC)",
+       "phone_number":"(202) 337-4540",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"1545",
+          "state":"DC",
+          "street_name":"Wisconsin AVE, NW",
+          "zip":"20007",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0646324,
+          "lat":38.9102227
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071ad",
+       "name":"MCLEAN",
+       "phone_number":"(703) 893-1501",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"1439",
+          "state":"VA",
+          "street_name":"Chain Bridge Road",
+          "zip":"22101",
+          "city":"McLean"
+       },
+       "geocode":{
+          "lng":-77.17829449999999,
+          "lat":38.932887
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071ae",
+       "name":"COLUMBIA PIKE",
+       "phone_number":"(703) 553-3750",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 6 PM",
+          "Tue 9 AM - 6 PM",
+          "Wed 9 AM - 6 PM",
+          "Thu 9 AM - 6 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open after 5 PM",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"3532",
+          "state":"VA",
+          "street_name":"Columbia Pike",
+          "zip":"22204",
+          "city":"Arlington"
+       },
+       "geocode":{
+          "lng":-77.09358499999999,
+          "lat":38.8605859
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071af",
+       "name":"TENLEY",
+       "phone_number":"(202) 237-1910",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"4000",
+          "state":"DC",
+          "street_name":"Wisconsin AVE",
+          "zip":"20016",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0848741,
+          "lat":38.9590565
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b0",
+       "name":"Dolley Madison Blvd/Mclean",
+       "phone_number":"(703) 917-1622",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"6890",
+          "state":"VA",
+          "street_name":"Elm Street",
+          "zip":"22101",
+          "city":"McLean"
+       },
+       "geocode":{
+          "lng":-77.1823211,
+          "lat":38.9380881
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b1",
+       "name":"LEESBURG PIKE PLAZA",
+       "phone_number":"(703) 820-4205",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"3499",
+          "state":"VA",
+          "street_name":"S. Jefferson ST",
+          "zip":"22041",
+          "city":"Bailey's Crossroads"
+       },
+       "geocode":{
+          "lng":-77.1172646,
+          "lat":38.8491288
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071ac",
+       "name":"FALLS CHURCH",
+       "phone_number":"(703) 237-1023",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Branch Drive-Up",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"1100",
+          "state":"VA",
+          "street_name":"W. Broad ST",
+          "zip":"22046",
+          "city":"Falls Church"
+       },
+       "geocode":{
+          "lng":-77.18639209999999,
+          "lat":38.8923369
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b2",
+       "name":"WESTBARD",
+       "phone_number":"(301) 961-2060",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"5370",
+          "state":"MD",
+          "street_name":"Westbard AVE",
+          "zip":"20816",
+          "city":"Bethesda"
+       },
+       "geocode":{
+          "lng":-77.1066261,
+          "lat":38.96369560000001
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b4",
+       "name":"IDYLWOOD PLAZA",
+       "phone_number":"(703) 448-4290",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"7501",
+          "state":"VA",
+          "street_name":"Leesburg Pike",
+          "zip":"22043",
+          "city":"Falls Church"
+       },
+       "geocode":{
+          "lng":-77.20388249999999,
+          "lat":38.9024769
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b3",
+       "name":"CLEVELAND PARK",
+       "phone_number":"(202) 537-2273",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"3519",
+          "state":"DC",
+          "street_name":"Connecticut AVE",
+          "zip":"20008",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0582046,
+          "lat":38.93625110000001
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b6",
+       "name":"18TH &amp; M",
+       "phone_number":"(202) 463-1470",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"1800",
+          "state":"DC",
+          "street_name":"M ST, NW",
+          "zip":"20036",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.04193819999999,
+          "lat":38.9053571
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b7",
+       "name":"WESTERN AVENUE",
+       "phone_number":"(301) 654-8900",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"5459",
+          "state":"MD",
+          "street_name":"Wisconsin AVE",
+          "zip":"20815",
+          "city":"Chevy Chase"
+       },
+       "geocode":{
+          "lng":-77.0849195,
+          "lat":38.9625208
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b5",
+       "name":"PENTAGON CITY",
+       "phone_number":"(703) 418-2926",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat 9 AM - 1 PM"
+       ],
+       "notes":[
+          "ATM Available",
+          "Open on Saturday"
+       ],
+       "address":{
+          "street_number":"1100",
+          "state":"VA",
+          "street_name":"S. Hayes ST",
+          "zip":"22202",
+          "city":"Arlington"
+       },
+       "geocode":{
+          "lng":-77.0601179,
+          "lat":38.8639404
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b8",
+       "name":"PENNSYLVANIA AVENUE",
+       "phone_number":"(202) 467-4188",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"1717",
+          "state":"DC",
+          "street_name":"Pennsylvania AVE, NW",
+          "zip":"20006",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.040381,
+          "lat":38.89952
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071b9",
+       "name":"1700 K STREET",
+       "phone_number":"(202) 296-7601",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"1700",
+          "state":"DC",
+          "street_name":"K ST",
+          "zip":"20006",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0399522,
+          "lat":38.902173
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071ba",
+       "name":"17TH &amp; L",
+       "phone_number":"(202) 728-2500",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"1100",
+          "state":"DC",
+          "street_name":"17th ST, NW",
+          "zip":"20036",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.03852479999999,
+          "lat":38.9037384
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071bb",
+       "name":"McLean Headquarters",
+       "phone_number":"(703) 448-3747",
+       "hours":[
+          "Sun",
+          "Mon 8:30 AM - 5 PM",
+          "Tue 8:30 AM - 5 PM",
+          "Wed 8:30 AM - 5 PM",
+          "Thu 8:30 AM - 5 PM",
+          "Fri 8:30 AM - 5 PM",
+          "Sat"
+       ],
+       "notes":[
+          
+       ],
+       "address":{
+          "street_number":"1680",
+          "state":"VA",
+          "street_name":"Capital One Dr.",
+          "zip":"22102",
+          "city":"McLean"
+       },
+       "geocode":{
+          "lng":-77.212276,
+          "lat":38.9257487
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071bc",
+       "name":"MCPHERSON SQUARE",
+       "phone_number":"(202) 408-1657",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"925",
+          "state":"DC",
+          "street_name":"15th ST, N.W.",
+          "zip":"20005",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.033287,
+          "lat":38.902006
+       }
+    },
+    {
+       "_id":"56c66be5a73e4927415071be",
+       "name":"COLUMBIA SQUARE/12TH &amp; F STREETS",
+       "phone_number":"(202) 347-4393",
+       "hours":[
+          "Sun",
+          "Mon 9 AM - 5 PM",
+          "Tue 9 AM - 5 PM",
+          "Wed 9 AM - 5 PM",
+          "Thu 9 AM - 5 PM",
+          "Fri 9 AM - 6 PM",
+          "Sat"
+       ],
+       "notes":[
+          "Safe Deposit Box",
+          "ATM Available"
+       ],
+       "address":{
+          "street_number":"1200",
+          "state":"DC",
+          "street_name":"F ST, NW",
+          "zip":"20004",
+          "city":"Washington"
+       },
+       "geocode":{
+          "lng":-77.0282675,
+          "lat":38.897154
+       }
+    }
+ ]
