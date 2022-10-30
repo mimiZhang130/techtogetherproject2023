@@ -1,0 +1,114 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box; 
+}
+
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: auto;
+  position: absolute;
+  width:85%;
+  font-size: 25px;
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.top-left a{
+  position: absolute;
+  font-size: 15px;
+  text-decoration:none;
+  color:white;
+}
+
+.top-left a:hover{
+  text-decoration: underline;
+}
+
+.top-right a:hover{
+  text-decoration: underline;
+}
+
+.top-left img{
+  position: absolute;
+  font-size: 15px;
+  text-decoration:none;
+  color:white;
+}
+
+.top-right a{
+  font-size: 15px;
+  text-decoration: none;
+  color:black;
+  position: absolute;
+}
+
+.left-header{
+  flex: 85%;
+}
+
+.right-header{
+  background-color: white;
+  flex: 15%;
+}
+
+.header h1{
+  font-size: 100px;
+}
+
+body{
+  margin: 0;
+}
+
+.logo h1{
+  color: black;
+  font-family: 'Barlow', sans-serif;
+  position: absolute;
+  font-size: 35px;
+  top: 250px;
+  left: 1075px;
+  text-align: left;
+}
+
+.logo h2{
+  color: black;
+  position: absolute;
+  font-size: 25px;
+  top: 300px;
+  left: 1075px;
+  text-align: left;
+}
+
+.row2{
+  background-color: white;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: space-around;
+}
+
+.row2 h1{
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 300px;
+  margin-top: 100px;
+  font-family: 'Red Hat Display', sans-serif;  
+  font-size: 50px;
+
+}
+
+.row2 h2{
+  color: black;
+  position: relative;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right:100px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+footer{
+  margin-left: 550px;
+}

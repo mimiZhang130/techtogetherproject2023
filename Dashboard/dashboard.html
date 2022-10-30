@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Budget Busters</title>
+  <link href="dashboard.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="header">
+
+    <div class="left-header">
+      <div class="top-left">
+        <a href="../index.html" style="top: 30px; left: 75px;">Home</a>
+        <a href="../Dashboard/dashboard.html" style="top: 30px; left: 155px;">Dashboard</a>
+        <a href="../aboutus/aboutus.html" style="top: 30px; left: 275px;">About Us</a>
+        <a href="../trick/trick.html" style="top: 30px; left: 375px;">Trick or Treat</a>
+      </div>
+      <img src="../images/header2.gif" alt="header" style="width:20%; height:187.5px">
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br>
+  
+  <div class="row2">
+    <h1>Hello <span id="name"></span>! Let's take a look at your financials</h1>
+  </div>
+  <br>
+  <div class="row3">
+    <h2>Monthly Facts</h2>
+    <div class="overall">
+      <h3>Current Balance: $<span id="balance"></span></h3>
+      <h3>Rewards: $<span id="rewards"></span></h3>
+    </div>
+    <div class="cat1">
+      <div class="left-facts">
+        <h3>Most Recent Payment: </h3>
+        <h3>Payment Date: <span id="paydate"></span></h3>
+        <h3>Payment Amount: $<span id="payamount"></span></h3>
+        
+      </div>
+      <div class="mid-facts">
+        <h3>Most Recent Deposit: </h3>
+        <h3>Deposit Date: <span id="date"></span></h3>
+        <h3>Deposit Description: "<span id="description"></span>"</h3>
+        <h3>Deposit Amount: $<span id="amount"></span></h3>
+      </div>
+      <div class="right-facts">
+        <h3>Loans: </h3>
+        <h3>Credit Score: <span id="credscore"></span></h3>
+        <h3>Monthly Payment: <span id="monthlypayment"></span></h3>
+        <h3>Loan Amount: $<span id="loanamount"></span></h3>
+      </div>
+    </div>
+    <div class="cat2">
+      <div class="left-facts">
+        <h3>Most Recent Purchase: </h3>
+        <h3>Purchase Amount: $<span id="purchaseAmount"></span></h3>
+        <h3>Purchase Date: <span id="purchaseDate"></span></h3>
+        <h3>Purchase Description: <span id="purchaseDesc"></span></h3>
+      </div>
+      <div class="mid-facts">
+        <h3>Most Recent Transfer: </h3>
+        <h3>Description: "<span id="transferDescription"></span>"</h3>
+        <h3>Amount: $<span id="transferAmount"></span></h3>
+      </div>
+      <div class="right-facts">
+        <h3>Most Recent Withdrawal:</h3>
+        <h3>Withdrawal Date: <span id="withdrawalDate"></span></h3>
+        <h3>Withdrawal Description: <span id="withdrawalDescription"></span></h3>
+        <h3>Amount: <span id="withdrawalAmount"></span></h3>
+      </div>
+    </div>
+  </div>
+  <div class="row4">
+    <h2>Charts</h2>
+  </div>
+  <footer style="height:200px; background-color:white"></footer>
+
+
+  <script src="dashboard.js"></script>
+</body>
+
+</html>

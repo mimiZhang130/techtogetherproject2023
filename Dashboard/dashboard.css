@@ -1,0 +1,173 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box; 
+  }
+  
+  .header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: auto;
+    position: absolute;
+    width:100%;
+    font-size: 25px;
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  
+  .top-left a{
+    position: absolute;
+    font-size: 15px;
+    text-decoration:none;
+    color:white;
+  }
+  
+  .top-left a:hover{
+    text-decoration: underline;
+  }
+  
+  .top-right a:hover{
+    text-decoration: underline;
+  }
+  
+  .top-left img{
+    position: absolute;
+    font-size: 15px;
+    text-decoration:none;
+    color:white;
+  }
+  
+  .top-right a{
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+  }
+  
+  .left-header{
+    width: 100%;
+  }
+  
+  .header h1{
+    font-size: 100px;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  .row2{
+    background-color: white;
+    position: relative;
+    text-align: center;
+  }
+  
+  .row2 h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;  
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .row2 h2{
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  .row3{
+    background-color: black;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  .row3 h2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    flex:100%;
+  }
+  .row3 .overall{
+    flex: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    background: green;
+  }
+  .overall h3{
+    text-align: center;
+    justify-content: center;
+    flex:50%;
+  }
+  .cat1{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  .cat1 .left-facts{
+    text-align: center;
+    justify-content: center;
+    flex: 25%;
+    border: orange solid;
+  }
+  .cat1 .mid-facts{
+    text-align: center;
+    justify-content: center;
+    flex: 50%;
+    background: orange;
+    color: black;
+  }
+  .cat1 .right-facts{
+    text-align: center;
+    justify-content: center;
+    border: orange solid;
+    flex: 25%;
+    background: black;
+  }
+  .cat2{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  .cat2 .left-facts{
+    text-align: center;
+    justify-content: center;
+    flex: 33%;
+    background: white;
+    color: black;
+    border: orange solid;
+  }
+  .cat2 .mid-facts{
+    text-align: center;
+    justify-content: center;
+    flex: 33%;
+    background: black;
+    color: white;
+  }
+  .cat2 .right-facts{
+    text-align: center;
+    justify-content: center;
+    flex: 33%;
+    background: white;
+    color: black;
+    border: orange solid;
+  }
+  .row4{
+    background-color: black;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  .row4 h2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    flex:100%;
+    padding-bottom: 10px;
+  }
